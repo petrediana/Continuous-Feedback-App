@@ -1,0 +1,26 @@
+.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #999;
+
+}
+
+.smiley_face {
+    background-color: #00FF7F
+}
+
+.frowny_face {
+    background-color: #6A5ACD
+}
+
+.surprised_face {
+    background-color: #A52A2A
+}
+
+.confused_face {
+    background-color: #FFD700
+}

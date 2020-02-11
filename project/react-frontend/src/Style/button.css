@@ -1,0 +1,64 @@
+.btnAddActivity {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 3%;
+
+}
+
+.btnAccess {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 3%;
+
+}
+
+input[type=text].activityID {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 26%;
+    margin-right: 30%;
+}
+
+.containerForFeedbackProfessor {
+    padding: 10px 20px;
+    text-align: center;
+
+
+}
+
+.inputTextProfessorFeedback {
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    width: 20%;
+    height: 40px;
+}
+
+.btnSeeFeedback {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid green;
+    cursor: pointer;
+    width: 20%;
+    margin-top: 3%;
+    height: 40px;
+    margin-left: 7px;
+}

@@ -1,0 +1,33 @@
+.container {
+    padding: 10px 40px;
+    position: absolute;
+    background-color: inherit;
+    width: 200px;
+    top:30%;
+    left: 0px;
+}
+
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid grey;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent grey transparent transparent;
+}
+
+
+/* Fix the circle for containers on the right side */
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: grey;
+    position: relative;
+    border-radius: 6px;
+}
