@@ -21,15 +21,15 @@ The application is built on a Single Page Application architecture and is access
 
 ## Available endpoints so far
 ### Student router: /student-api
-/students : Handle get request => response: a json array with all the students
+`/students : Handle get request => response: a json array with all the students`
 
-/students/add : Handle post requests to /students/add => add a student to the database
+`/students/add : Handle post requests to /students/add => add a student to the database`
 
-/students/add/:id : Handle delete request to /students/:id => delete a student by its id
+`/students/add/:id : Handle delete request to /students/:id => delete a student by its id`
 
-/students/:sid/feedbacks : Handle get request to /students/:sid/feedbacks => response: a json array with all the feedback that a student has
+`/students/:sid/feedbacks : Handle get request to /students/:sid/feedbacks => response: a json array with all the feedback that a student has`
 
-/students/:sid/:aid/feedbacks: Handle get request to /students/:sid/:aid/feedbacks => response: a json array with all the feedback that a student has on a specific activity
+`/students/:sid/:aid/feedbacks: Handle get request to /students/:sid/:aid/feedbacks => response: a json array with all the feedback that a student has on a specific activity`
 ### Group router: /group-api
 /groups : Handle get request to /groups => response: a json array with all the groups
 
