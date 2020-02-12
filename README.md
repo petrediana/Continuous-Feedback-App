@@ -31,43 +31,43 @@ The application is built on a Single Page Application architecture and is access
 
 `/students/:sid/:aid/feedbacks: Handle get request to /students/:sid/:aid/feedbacks => response: a json array with all the feedback that a student has on a specific activity`
 ### Group router: /group-api
-/groups : Handle get request to /groups => response: a json array with all the groups
+`/groups : Handle get request to /groups => response: a json array with all the groups`
 
-/groups/add : Handle post request to /groups/add => using a json body add a group to the db
+`/groups/add : Handle post request to /groups/add => using a json body add a group to the db`
 
-/groups/:gid/students : Handle get request to /group-api/groups/:gid/students => response: a json array with all the students that that are in a specific group
+`/groups/:gid/students : Handle get request to /group-api/groups/:gid/students => response: a json array with all the students that that are in a specific group`
 
-/groups/:gid/student/add : Handle post request to /group-api/groups/:gid/student/add => create a student and bond it with a group (group identified by id)
+`/groups/:gid/student/add : Handle post request to /group-api/groups/:gid/student/add => create a student and bond it with a group (group identified by id)`
 ### Activity router: /activity-api
-/activities : Handle get request to /activities => response: a json array with all the activities from the database
+`/activities : Handle get request to /activities => response: a json array with all the activities from the database`
 
-/activities/add : Handle post request to /activities/add => add a new activity to the db
+`/activities/add : Handle post request to /activities/add => add a new activity to the db`
 
-/activities/:aid : Handle put request to /activities/:aid => update an existing activity
+`/activities/:aid : Handle put request to /activities/:aid => update an existing activity`
 
-/activity-api/:aid : // Handle get request to /activity-api/:aid => get activity by id
+`/activity-api/:aid : // Handle get request to /activity-api/:aid => get activity by id`
 
-/activities/:aid/update-count-emoji1 : Handle put request to /activities/:aid/update-count-emoji1 => update an existing activity count for emoji1
+`/activities/:aid/update-count-emoji1 : Handle put request to /activities/:aid/update-count-emoji1 => update an existing activity count for emoji1`
 
-/activities/:aid/update-count-emoji2 : Handle put request to /activities/:aid/update-count-emoji2 => update an existing activity count for emoji2
+`/activities/:aid/update-count-emoji2 : Handle put request to /activities/:aid/update-count-emoji2 => update an existing activity count for emoji2`
 
-/activities/:aid/update-count-emoji3 : Handle put request to /activities/:aid/update-count-emoji3 => update an existing activity count for emoji3
+`/activities/:aid/update-count-emoji3 : Handle put request to /activities/:aid/update-count-emoji3 => update an existing activity count for emoji3`
 
-/activities/:aid/update-count-emoji4 : Handle put request to /activities/:aid/update-count-emoji4 => update an existing activity count for emoji4
+`/activities/:aid/update-count-emoji4 : Handle put request to /activities/:aid/update-count-emoji4 => update an existing activity count for emoji4`
 
 ### Professor router: /professor-api
-/professors : Handle get request to /professors => response: a json array with all the professors from the database
+`/professors : Handle get request to /professors => response: a json array with all the professors from the database`
 
-/professors/add : Handle post request to /professors/add => add a new professor to the db
+`/professors/add : Handle post request to /professors/add => add a new professor to the db`
 
-/professors/:pid/activites : Handle get request to /professor-api/professors/:pid/activites => response: a json array with all the activities that a professor has
+`/professors/:pid/activites : Handle get request to /professor-api/professors/:pid/activites => response: a json array with all the activities that a professor has`
 
-/professors/:pid/activites/add : Handle post request to /professor-api/professors/:pid/activites/add => create an activity and bond it with a professor (professor identified by id)
+`/professors/:pid/activites/add : Handle post request to /professor-api/professors/:pid/activites/add => create an activity and bond it with a professor (professor identified by id)`
 
 ### Feedback router: /feedback-api
-/feedbacks : Handle get request to /feedbacks => response: a json array with all the feedbacks from the database
+`/feedbacks : Handle get request to /feedbacks => response: a json array with all the feedbacks from the database`
 
-/feedbacks/add : Handle post request to /feedbacks/add => add a new feedback to the db
+`/feedbacks/add : Handle post request to /feedbacks/add => add a new feedback to the db`
 
 ## Dependencies used for this project
 ### Backend:
